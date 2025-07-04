@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="nav_item_color">#FF6200EE</color> <!-- or your preferred color -->
+    <!-- Primary brand colors -->
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryVariant">#3700B3</color>
+    <color name="colorOnPrimary">#FFFFFF</color>
+    <color name="colorGray">#A0A0A0</color>
+
+    <!-- Secondary (accent) colors -->
+    <color name="colorSecondary">#03DAC5</color>
+    <color name="colorSecondaryVariant">#018786</color>
+    <color name="colorOnSecondary">#000000</color>
+
+    <!-- Common UI colors -->
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="gray">#BDBDBD</color>
+
+    <!-- Gradient fallback -->
+    <color name="backgroundStart">#3F51B5</color>
+    <color name="backgroundEnd">#2196F3</color>
+
+    <!-- Error/status -->
+    <color name="errorRed">#f44336</color>
+</resources>

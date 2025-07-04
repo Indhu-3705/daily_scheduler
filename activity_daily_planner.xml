@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_gradient"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        android:padding="20dp"
+        android:layout_margin="8dp"
+        android:elevation="4dp"
+        android:clipToPadding="false"
+        android:layout_gravity="center"
+        android:backgroundTint="#FFFFFF"
+        android:backgroundTintMode="src_in">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Choose Date"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#333333" />
+
+        <CalendarView
+            android:id="@+id/plannerCalendarView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp" />
+
+        <!-- Section Template -->
+        <!-- Morning -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Morning"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:layout_marginTop="24dp"
+            android:textColor="#555555" />
+
+        <EditText
+            android:id="@+id/morningEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="E.g., Wake up, Exercise"
+            android:layout_marginTop="8dp"
+            android:backgroundTint="#CCCCCC" />
+
+        <TimePicker
+            android:id="@+id/morningTimePicker"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp" />
+
+        <!-- Afternoon -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Afternoon"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:layout_marginTop="24dp"
+            android:textColor="#555555" />
+
+        <EditText
+            android:id="@+id/afternoonEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="E.g., Lunch, Meetings"
+            android:layout_marginTop="8dp"
+            android:backgroundTint="#CCCCCC" />
+
+        <TimePicker
+            android:id="@+id/afternoonTimePicker"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp" />
+
+        <!-- Evening -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Evening"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:layout_marginTop="24dp"
+            android:textColor="#555555" />
+
+        <EditText
+            android:id="@+id/eveningEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="E.g., Workout, Snacks"
+            android:layout_marginTop="8dp"
+            android:backgroundTint="#CCCCCC" />
+
+        <TimePicker
+            android:id="@+id/eveningTimePicker"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp" />
+
+        <!-- Night -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Night"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:layout_marginTop="24dp"
+            android:textColor="#555555" />
+
+        <EditText
+            android:id="@+id/nightEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="E.g., Dinner, Sleep"
+            android:layout_marginTop="8dp"
+            android:backgroundTint="#CCCCCC" />
+
+        <TimePicker
+            android:id="@+id/nightTimePicker"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp" />
+
+        <!-- Save Plan -->
+        <Button
+            android:id="@+id/saveAllSectionsButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Save Plan"
+            android:layout_marginTop="32dp"
+            android:textAllCaps="false"
+            android:backgroundTint="#3F51B5"
+            android:textColor="@android:color/white" />
+
+    </LinearLayout>
+</ScrollView>
